@@ -25,7 +25,7 @@ $ python3 ./generate.py --model results/model --id 7000 --inf 3 --outf 3
 
 Then, the images are generated in `img/`.
 
-## Gallary
+## Gallery
 
 ![7000_cap](https://github.com/joisino/ConvLSTM/blob/master/imgs/7000_cap.png)
 
