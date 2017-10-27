@@ -2,7 +2,7 @@ import numpy as np
 import chainer
 
 class MovingMnistDataset(chainer.dataset.DatasetMixin):
-    def __init__(self, l, r, inn, outn, path="../mnist_test_seq.npy"):
+    def __init__(self, l, r, inn, outn, path="./mnist_test_seq.npy"):
         self.l = l
         self.r = r
         self.inn = inn
