@@ -25,6 +25,14 @@ $ python3 ./generate.py --model results/model --id 7000 --inf 3 --outf 3
 
 Then, the images are generated in `img/`.
 
+```
+$ mkdir img
+$ wget -O model https://www.dropbox.com/s/pthwoljp8qq3o30/model?dl=0
+$ python3 ./generate.py --model model --id 7000 --inf 3 --outf 3
+```
+
+Or, you can try ConvLSTM with the pre-trained model.
+
 ## Gallery
 
 ![7000_cap](https://github.com/joisino/ConvLSTM/blob/master/imgs/7000_cap.png)
